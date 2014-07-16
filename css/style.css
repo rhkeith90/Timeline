@@ -302,7 +302,7 @@ color: #FFF;
 	line-height: 26px;
 }
 
-#buttons{
+#buttons2{
 	text-align: center;
 	margin: 0 auto;
 margin-bottom:10px;
@@ -310,14 +310,14 @@ margin-bottom:10px;
 top: 10px;
 position: relative;
 }
-#buttons div{
+#buttons2 div{
 margin: auto;
 padding-bottom: 30px;
 padding-left: 10px;
 display:inline-block;
 
 }
-#buttons a{
+#buttons2 a{
 	border: 1px #adadad solid;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -330,8 +330,8 @@ font-family: PT Sans;
 	background-color: #FFF;
 	color: #3b3b3b;
 }
-#buttons a.active:hover,
-#buttons a.active{
+#buttons2 a.active:hover,
+#buttons2 a.active{
 	background-color: #f6f6f6;
 	color: #a9a9a9;
 	-webkit-box-shadow:  none;
@@ -339,25 +339,25 @@ font-family: PT Sans;
 	box-shadow:  none;
 	cursor: default;
 }
-#buttons a:hover{
+#buttons2 a:hover{
 	-webkit-box-shadow:  0px 1px 1px 0px #adadad;
 	-moz-box-shadow:  0px 1px 1px 0px #adadad;
 	box-shadow:  0px 1px 1px 0px #adadad;
 }
-#buttons a span{
+#buttons2 a span{
 	padding-right: 15px;
 	background-position: right -20px;
 }
-#buttons a.active span{
+#buttons2 a.active span{
 	background-position: right 4px;
 }
-#buttons a.expand-all span,
-#buttons a.sort-newest span{
+#buttons2 a.expand-all span,
+#buttons2 a.sort-newest span{
 	background-image: url(../img/up-arrows.png);
 	background-repeat: no-repeat;
 }
-#buttons a.collapse-all span,
-#buttons a.sort-oldest span{
+#buttons2 a.collapse-all span,
+#buttons2 a.sort-oldest span{
 	background-image: url(../img/down-arrows.png);
 	background-repeat: no-repeat;
 }
@@ -462,4 +462,3 @@ font-family: PT Sans;
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
-
