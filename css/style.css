@@ -68,9 +68,6 @@ td { vertical-align: top; }
 /***********************************************************************************************************************
 ** styles begin here
 ***********************************************************************************************************************/
-body{
-	text-align: center;
-}
 #page{
 	width: 600px;
 	margin: 0 auto;
@@ -141,6 +138,7 @@ text-transform: uppercase;
 	font-family: PT Sans;
 	font-size: 12px;
 	margin-top: 4px;
+	line-height: 14px;
 }
 #timeline .post .body{
 	margin-top: 10px;
@@ -313,7 +311,7 @@ color: #FFF;
 	padding: 0 10px;
 }
 #buttons a{
-	width: 126px;
+	width: 100px;
 	height: 28px;
 	border: 1px #adadad solid;
 	-webkit-border-radius: 2px;
@@ -321,6 +319,7 @@ color: #FFF;
 	border-radius: 2px;
 	font-size: 12px;
 	font-weight: bold;
+font-family: PT Sans;
 	text-decoration: none;
 	padding: 10px 12px;
 	background-color: #FFF;
@@ -458,3 +457,4 @@ color: #FFF;
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
