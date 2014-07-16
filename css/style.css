@@ -91,11 +91,10 @@ text-transform: uppercase;
 
 #timeline{
 position: relative;
-width: 600px;
-top: 20px;
-margin-bottom: 30px;
+	width: 600px;
+margin-top: 80px;
+	margin-bottom: 30px;
 }
-
 #timeline .post{
 	width: 271px;
 	margin: 0 0 10px 0;
@@ -313,7 +312,8 @@ position: relative;
 #buttons div{
 margin: auto;
 padding-bottom: 30px;
-padding:left: 10px;
+padding-left: 10px;
+display:inline-block;
 
 }
 #buttons a{
