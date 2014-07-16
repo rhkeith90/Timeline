@@ -30,12 +30,13 @@ margin-top: 35px;
 	width: 25%;
 	margin: 0 0 10px 0;
 	float: left;
-		position: relative;
+	
 }
 #timeline .post.last{
 	margin-bottom: 0;
 }
 #timeline .post .inner{
+		position: relative;
 	width: 247px;
 	padding: 11px;
 	border: 1px #adadad solid;
