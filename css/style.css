@@ -92,7 +92,7 @@ text-transform: uppercase;
 #timeline{
 position: relative;
 	width: 600px;
-margin-top: 80px;
+margin-top: 35px;
 	margin-bottom: 30px;
 }
 #timeline .post{
@@ -305,6 +305,7 @@ color: #FFF;
 #buttons{
 	text-align: center;
 	margin: 0 auto;
+margin-bottom:10px;
 	height: 30px;
 top: 10px;
 position: relative;
