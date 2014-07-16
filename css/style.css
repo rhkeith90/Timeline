@@ -318,11 +318,3 @@ font-family: PT Sans;
 	-o-transition-duration: 0s;
 	transition-duration: 0s;
 }
-
-
-
-
-
-
-  h2, h3 { page-break-after: avoid; }
-}
