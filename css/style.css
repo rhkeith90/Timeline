@@ -84,7 +84,7 @@ text-transform: uppercase;
 	line-height: 1.5;
 }
 #timeline .post a.open-close{
-	background: transparent url(../img/button-up-down-arrow.png) no-repeat;
+	background: transparent url(../img/button2-up-down-arrow.png) no-repeat;
 	height: 17px;
 	width: 16px;
 	position: absolute;
@@ -165,20 +165,20 @@ color: #FFF;
 	text-align: center;
 	padding-top: 15px;
 }
-#timeline .post .share-popup .twitter-share-button{
+#timeline .post .share-popup .twitter-share-button2{
 	position: absolute;
 	left: 20px;
 	top: 15px;
 }
-#timeline .post .share-popup .facebook-share-button{
+#timeline .post .share-popup .facebook-share-button2{
 	position: absolute;
 	right: 20px;
 	top: 12px;
 }
-.lt-ie9 #timeline .post .share-popup .facebook-share-button{
+.lt-ie9 #timeline .post .share-popup .facebook-share-button2{
 	top: 11px;
 }
-.lt-ie8 #timeline .post .share-popup .facebook-share-button{
+.lt-ie8 #timeline .post .share-popup .facebook-share-button2{
 	top: 16px;
 }
 #timeline .post .date{
@@ -230,16 +230,16 @@ color: #FFF;
 	line-height: 26px;
 }
 
-#buttons{
+#button2s{
 	text-align: center;
 	margin: 30px 0 15px 0;
 	height: 30px;
 }
-#buttons div{
+#button2s div{
 	display: inline;
 	padding: 0 10px;
 }
-#buttons a{
+#button2s a{
 	width: 126px;
 	height: 28px;
 	border: 1px #adadad solid;
@@ -253,8 +253,8 @@ color: #FFF;
 	background-color: #FFF;
 	color: #3b3b3b;
 }
-#buttons a.active:hover,
-#buttons a.active{
+#button2s a.active:hover,
+#button2s a.active{
 	background-color: #f6f6f6;
 	color: #a9a9a9;
 	-webkit-box-shadow:  none;
@@ -262,25 +262,25 @@ color: #FFF;
 	box-shadow:  none;
 	cursor: default;
 }
-#buttons a:hover{
+#button2s a:hover{
 	-webkit-box-shadow:  0px 1px 1px 0px #adadad;
 	-moz-box-shadow:  0px 1px 1px 0px #adadad;
 	box-shadow:  0px 1px 1px 0px #adadad;
 }
-#buttons a span{
+#button2s a span{
 	padding-right: 15px;
 	background-position: right -20px;
 }
-#buttons a.active span{
+#button2s a.active span{
 	background-position: right 4px;
 }
-#buttons a.expand-all span,
-#buttons a.sort-newest span{
+#button2s a.expand-all span,
+#button2s a.sort-newest span{
 	background-image: url(../img/up-arrows.png);
 	background-repeat: no-repeat;
 }
-#buttons a.collapse-all span,
-#buttons a.sort-oldest span{
+#button2s a.collapse-all span,
+#button2s a.sort-oldest span{
 	background-image: url(../img/down-arrows.png);
 	background-repeat: no-repeat;
 }
