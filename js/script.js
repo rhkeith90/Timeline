@@ -93,7 +93,7 @@ $(function() {
 		$.getScript('//static.ak.fbcdn.net/connect.php/js/FB.Share');
 		$.getScript('//platform.twitter.com/widgets.js');
 
-		// add open/close buttons to each post
+		// add open/close buttons2 to each post
 		$('#timeline .item.post').each(function(){
 			$(this).find('.inner').append('<a href="#" class="open-close"></a>');
 		});
@@ -103,7 +103,7 @@ $(function() {
 				$('#timeline').isotope('reLayout');
 			});
 			$(this).parents('.post').toggleClass('closed');
-			$('#expand-collapse-buttons a').removeClass('active');
+			$('#expand-collapse-buttons2 a').removeClass('active');
 			e.preventDefault();
 		});
 
@@ -118,22 +118,22 @@ $(function() {
 			}
 		);
 
-		$('#buttons a.expand-all').click(function(e){
+		$('#buttons2 a.expand-all').click(function(e){
 			$('.post .body').slideDown(function(){
 				$('#timeline').isotope('reLayout');
 			});
 			$('.post').removeClass('closed');
-			$('#expand-collapse-buttons a').removeClass('active');
+			$('#expand-collapse-buttons2 a').removeClass('active');
 			$(this).addClass('active');
 			e.preventDefault();
 		});
 
-		$('#buttons a.collapse-all').click(function(e){
+		$('#buttons2 a.collapse-all').click(function(e){
 			$('.post .body').slideUp(function(){
 				$('#timeline').isotope('reLayout');
 			});
 			$('.post').addClass('closed');
-			$('#expand-collapse-buttons a').removeClass('active');
+			$('#expand-collapse-buttons2 a').removeClass('active');
 			$(this).addClass('active');
 			e.preventDefault();
 		});
@@ -166,14 +166,14 @@ $(function() {
 		$('#line').height(lineHeight);
 	}
 
-	$('#sort-buttons a').click(function(e){
+	$('#sort-buttons2 a').click(function(e){
 		var $this = $(this);
 		// don't proceed if already selected
 		if ($this.hasClass('active')) {
 			return false;
 		}
 
-		$('#sort-buttons a').removeClass('active');
+		$('#sort-buttons2 a').removeClass('active');
 		$this.addClass('active');
 		var $yearMarkers = $('.year-markers');
 		if ($this.hasClass('sort-newest')){
