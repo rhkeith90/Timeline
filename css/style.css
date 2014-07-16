@@ -69,7 +69,7 @@ td { vertical-align: top; }
 ** styles begin here
 ***********************************************************************************************************************/
 #page{
-	width: 530px;
+	width: 600px;
 	margin: 0 auto;
 	text-align: left;
 }
@@ -91,7 +91,7 @@ text-transform: uppercase;
 
 #timeline{
 	width: 600px;
-	margin-top: 80px;
+	margin-top: 20px;
 	margin-bottom: 30px;
 }
 #timeline .post{
@@ -305,14 +305,18 @@ color: #FFF;
 	text-align: center;
 	margin: 0px 0 10px 0;
 	height: 30px;
+width: 100%;
 display: block;
 }
 #buttons div{
-	padding: 10px;
+	width: 100%;
+margin: auto;
+padding-bottom: 35px;
+padding:left: 10px;
+display: inline;
+
 }
 #buttons a{
-	width: 100px;
-	height: 28px;
 	border: 1px #adadad solid;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
