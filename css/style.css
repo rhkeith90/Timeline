@@ -68,7 +68,6 @@ text-transform: uppercase;
 	font-family: PT Sans;
 	font-size: 12px;
 	margin-top: 4px;
-	line-height: 12px;
 }
 #timeline .post .body{
 	margin-top: 10px;
@@ -84,7 +83,7 @@ text-transform: uppercase;
 	line-height: 1.5;
 }
 #timeline .post a.open-close{
-	background: transparent url(../img/buttons2-up-down-arrow.png) no-repeat;
+	background: transparent url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/button-up-down-arrow.png) no-repeat;
 	height: 17px;
 	width: 16px;
 	position: absolute;
@@ -109,7 +108,7 @@ font-family: PT Sans;
 	font-size: 13px;
 	font-weight: bold;
 	text-align: center;
-	width: 247px;
+	width: 211px;
 	height: 28px;
 	border: 1px #000 solid;
 	background-color: #FFF;
@@ -135,7 +134,7 @@ color: #FFF;
 	width: 28px;
 	height: 28px;
 	border: 1px #87b2d3 solid;
-	background: #d6e5f0 url(../img/icon-share.png) no-repeat center center;
+	background: #d6e5f0 url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/icon-share.png) no-repeat center center;
 	display: block;
 	-webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -156,7 +155,7 @@ color: #FFF;
 }
 #timeline .post .share-popup{
 	display: none;
-	background: transparent url(../img/popup.png) no-repeat;
+	background: transparent url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/popup.png) no-repeat;
 	width: 166px;
 	height: 50px;
 	position: absolute;
@@ -165,40 +164,39 @@ color: #FFF;
 	text-align: center;
 	padding-top: 15px;
 }
-#timeline .post .share-popup .twitter-share-buttons2{
+#timeline .post .share-popup .twitter-share-button{
 	position: absolute;
 	left: 20px;
 	top: 15px;
 }
-#timeline .post .share-popup .facebook-share-buttons2{
+#timeline .post .share-popup .facebook-share-button{
 	position: absolute;
 	right: 20px;
 	top: 12px;
 }
-.lt-ie9 #timeline .post .share-popup .facebook-share-buttons2{
+.lt-ie9 #timeline .post .share-popup .facebook-share-button{
 	top: 11px;
 }
-.lt-ie8 #timeline .post .share-popup .facebook-share-buttons2{
+.lt-ie8 #timeline .post .share-popup .facebook-share-button{
 	top: 16px;
 }
 #timeline .post .date{
-	color: #000;
+	color: #6a6a6a;
 	font-size: 11px;
 	text-align: center;
 	position: absolute;
 	top: 19px;
-	font-family: PT Sans;
 	display: block;
 	width: 54px;
 	height: 21px;
 	line-height: 20px;
 }
 #timeline .post.left .date{
-	background: transparent url(../img/tab-left.png) no-repeat right;
+	background: transparent url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/tab-left.png) no-repeat right;
 	right: -54px;
 }
 #timeline .post.right .date{
-	background: transparent url(../img/tab-right.png) no-repeat left;
+	background: transparent url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/tab-right.png) no-repeat left;
 	left: -54px;
 }
 #timeline .year-marker {
@@ -276,12 +274,12 @@ color: #FFF;
 }
 #buttons2 a.expand-all span,
 #buttons2 a.sort-newest span{
-	background-image: url(../img/up-arrows.png);
+	background-image: url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/up-arrows.png);
 	background-repeat: no-repeat;
 }
 #buttons2 a.collapse-all span,
 #buttons2 a.sort-oldest span{
-	background-image: url(../img/down-arrows.png);
+	background-image: url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/down-arrows.png);
 	background-repeat: no-repeat;
 }
 
