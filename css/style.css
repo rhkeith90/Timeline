@@ -83,7 +83,7 @@ text-transform: uppercase;
 	line-height: 1.5;
 }
 #timeline .post a.open-close{
-	background: transparent url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/button-up-down-arrow.png) no-repeat;
+	background: transparent url('https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/button-up-down-arrow.png') no-repeat;
 	height: 17px;
 	width: 16px;
 	position: absolute;
@@ -134,7 +134,7 @@ color: #FFF;
 	width: 28px;
 	height: 28px;
 	border: 1px #87b2d3 solid;
-	background: #d6e5f0 url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/icon-share.png) no-repeat center center;
+	background: #d6e5f0 url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/icon-share.png') no-repeat center center;
 	display: block;
 	-webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -155,7 +155,7 @@ color: #FFF;
 }
 #timeline .post .share-popup{
 	display: none;
-	background: transparent url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/popup.png) no-repeat;
+	background: transparent url('https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/popup.png') no-repeat;
 	width: 166px;
 	height: 50px;
 	position: absolute;
@@ -192,11 +192,11 @@ color: #FFF;
 	line-height: 20px;
 }
 #timeline .post.left .date{
-	background: transparent url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/tab-left.png) no-repeat right;
+	background: transparent url('https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/tab-left.png') no-repeat right;
 	right: -54px;
 }
 #timeline .post.right .date{
-	background: transparent url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/tab-right.png) no-repeat left;
+	background: transparent url('https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/tab-right.png') no-repeat left;
 	left: -54px;
 }
 #timeline .year-marker {
@@ -274,12 +274,12 @@ color: #FFF;
 }
 #buttons2 a.expand-all span,
 #buttons2 a.sort-newest span{
-	background-image: url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/up-arrows.png);
+	background-image: url('https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/up-arrows.png');
 	background-repeat: no-repeat;
 }
 #buttons2 a.collapse-all span,
 #buttons2 a.sort-oldest span{
-	background-image: url(https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/down-arrows.png);
+	background-image: url('https://raw.githubusercontent.com/rhkeith90/Timeline/master/img/down-arrows.png');
 	background-repeat: no-repeat;
 }
 
